@@ -1,0 +1,148 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@200;400;700&display=swap');
+
+@font-face {
+	font-family: "Star Jedi";
+	src: url("../fonts/StarJedi.woff2") format("woff2"), url("../fonts/StarJedi.woff") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Star Jedi";
+	src: url("../fonts/StarJediSpecialEdition.woff2") format("woff2"), url("../fonts/StarJediSpecialEdition.woff") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1500px;
+	/* сверху/снизу, слева/справа */
+	/* выравнивание по центру */
+	margin: 0px auto ; 
+	
+}
+
+*{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 200;
+	font-size: 30px;
+}
+
+.header{
+	text-align: center;
+}
+
+.logo, .footer{
+	/* сверху, слева/справа, снизу*/
+	margin: 20px 0 30px;
+}
+
+.list-menu{
+	line-height: 1.5;
+}
+
+/*схлопывание отступов (margin-button картинки .img-big и margin-top заголовка h1 */
+.img-big{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	/* картинка увеличивается/уменьшается при изменении размера вьюпорта */
+	width: 100%; 
+}
+
+h1{
+	font-family: "Star Jedi", sans-serif;
+	font-size: 60px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+h2{
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+.section1{
+	margin: 20px 0 0 auto;
+	padding: 10px 5px 25px 70px;
+}
+
+a.link{
+	color: brown;
+}
+
+
+.list {
+	padding: 20px 5px 25px 70px;
+}
+
+.img1{
+	padding: 40px 5px 25px 0px;
+}
+
+.section2{
+	display: inline-block;
+	max-width: 500px;
+	max-height: 500px;
+	overflow: auto;
+}
+
+.section3{
+	max-width: 500px;
+	max-height: 500px;
+	overflow: hidden;
+	margin:70px 0 40px 100px;
+}
+
+.img4 {
+	display: block;
+	max-width: 500px;
+	/* выравнивание по центру */
+	margin: 40px auto;	
+}
+
+
+/* добавление полосы прокручивания */
+.section5{
+	max-width: 500px;
+	max-height: 500px;
+	overflow: scroll;
+	margin-bottom: 50px;
+}
+
+.img6{
+max-height: 500px;
+}
+
+.section6{
+	display: inline-block;
+	width: 900px;
+	padding: 70px 20px 50px 70px;
+	margin-bottom: 40px;
+}
+
+.section-footer{
+	text-align:center;
+}
+
+.section-footer p{
+	font-size: 40px;
+	font-family: "Star Jedi", sans-serif;
+	line-height: 1.5;
+}
+
+/* вистроить элементы списка в строку  */
+.list-footer li{
+	display: inline-block;
+	padding: 10px;		
+}
+
+
+
